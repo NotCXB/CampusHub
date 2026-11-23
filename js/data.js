@@ -1,0 +1,1 @@
+export const locations = [{name:'Library',type:'Library',description:'Study spaces and research support.'},{name:'Dining Hall',type:'Dining',description:'Meals and a place to meet.'},{name:'Athletics Center',type:'Athletics',description:'Fitness and recreation facilities.'},{name:'Student Center',type:'Campus',description:'Student services and gathering spaces.'}];
