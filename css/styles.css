@@ -17,3 +17,7 @@ h1 { font-weight:750; margin-bottom:1.5rem; }
 h2 { font-size:1.2rem; font-weight:700; margin-bottom:1rem; }
 .quick-links { display:grid; gap:.6rem; }
 @media(max-width:767px) { .dashboard-grid { grid-template-columns:1fr; } }
+[data-theme="dark"] { --ink:#e4eaf4; --muted:#aebed1; --surface:#23344d; --canvas:#17243a; --accent:#84b9ff; color-scheme:dark; }
+[data-theme="dark"] .card, [data-theme="dark"] .list-group-item { background:var(--surface); color:var(--ink); }
+[data-theme="dark"] .text-secondary { color:#c2cfdf !important; }
+[data-theme="dark"] a { color:#9ccaff; }
