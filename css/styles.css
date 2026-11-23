@@ -1,0 +1,6 @@
+body { margin: 0; font-family: sans-serif; }
+.app-shell { display: flex; min-height: 100vh; }
+.sidebar { background: #14243c; color: white; padding: 2rem; }
+.sidebar a { color: white; display: block; padding: .75rem; }
+.sidebar a[aria-current="page"] { background: #304968; }
+main { flex: 1; padding: 2rem; }
